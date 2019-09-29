@@ -70,7 +70,6 @@ body {
 .hero-container {
   display: flex;
   padding: 100px 0 100px 0;
-  justify-content: space-around;
-  border: 2px solid red; }
+  justify-content: space-around; }
 
 /*# sourceMappingURL=main.css.map */
