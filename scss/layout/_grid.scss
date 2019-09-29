@@ -1,3 +1,32 @@
 body {
     background-color: $light-grey;
 }
+
+.container {
+    max-width: 1166px;
+    margin: 0 auto;
+}
+
+.nav {
+    background-color: $secondary-color;
+    height: 55px;
+    display: flex;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+        width: 100%;
+    }
+
+    &__btn {
+        align-self: center;
+    }
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    align-self: center;
+}
