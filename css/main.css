@@ -26,12 +26,15 @@ ul {
 .nav__btn {
   font-size: 0.875rem; }
 
+<<<<<<< HEAD
 .hero__title {
   font-size: 2rem; }
 
 .hero__text {
   font-size: 0.875rem; }
 
+=======
+>>>>>>> f52ac3d485f497af2ff25152a1958b3702506f1e
 body {
   background-color: #F5F5F5; }
 
@@ -61,6 +64,7 @@ body {
   .menu__link--white {
     color: #ffffff; }
 
+<<<<<<< HEAD
 .hero {
   background-color: #ffffff; }
   .hero__text-container {
@@ -73,4 +77,6 @@ body {
   justify-content: space-around;
   border: 2px solid red; }
 
+=======
+>>>>>>> f52ac3d485f497af2ff25152a1958b3702506f1e
 /*# sourceMappingURL=main.css.map */
