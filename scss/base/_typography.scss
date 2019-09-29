@@ -1,7 +1,16 @@
 .logo {
     font-size: 26px;
+    color: $white;
 
     &__plus {
         color: $primary-color;
     }
+}
+
+.menu__item {
+    font-size: 0.875rem;
+}
+
+.nav__btn {
+    font-size: 0.875rem;
 }
