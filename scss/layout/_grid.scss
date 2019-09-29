@@ -41,12 +41,14 @@ body {
     background-color: $white;
 
     &__text-container {
-        width: 45%;
+        width: 47%;
+        align-self: center;
     }
 }
 
 .hero-container {
     display: flex;
     padding: 100px 0 100px 0;
+    justify-content: space-around;
     border: 2px solid red;
 }
