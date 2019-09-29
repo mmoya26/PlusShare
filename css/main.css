@@ -43,6 +43,7 @@ body {
   display: flex;
   justify-content: space-between;
   width: 20%;
-  align-self: center; }
+  align-self: center;
+  margin-left: -60%; }
 
 /*# sourceMappingURL=main.css.map */
