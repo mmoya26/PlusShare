@@ -1,16 +1,48 @@
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: white; }
 
 img {
   width: 100%;
   max-width: 402px; }
 
+ul {
+  list-style: none; }
+
+.logo {
+  font-size: 26px; }
+  .logo__plus {
+    color: #2BBFC9; }
+
 body {
   background-color: #F5F5F5; }
+
+.container {
+  max-width: 1166px;
+  margin: 0 auto; }
+
+.nav {
+  background-color: #1B1B1B;
+  height: 55px;
+  display: flex; }
+  .nav__container {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    width: 100%; }
+  .nav__btn {
+    align-self: center; }
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  align-self: center; }
 
 /*# sourceMappingURL=main.css.map */
