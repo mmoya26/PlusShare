@@ -61,4 +61,14 @@ body {
   .menu__link--white {
     color: #ffffff; }
 
+.hero {
+  background-color: #ffffff; }
+  .hero__text-container {
+    width: 45%; }
+
+.hero-container {
+  display: flex;
+  padding: 100px 0 100px 0;
+  border: 2px solid red; }
+
 /*# sourceMappingURL=main.css.map */
