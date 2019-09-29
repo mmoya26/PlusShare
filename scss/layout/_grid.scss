@@ -21,6 +21,7 @@ body {
 
     &__btn {
         align-self: center;
+        color: $white;
     }
 }
 
@@ -30,4 +31,8 @@ body {
     width: 20%;
     align-self: center;
     margin-left: -60%;
+
+    &__link--white {
+        color: $white;
+    }
 }
