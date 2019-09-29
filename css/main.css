@@ -6,6 +6,10 @@
 a {
   text-decoration: none; }
 
+img {
+  width: 100%;
+  max-width: 402px; }
+
 body {
   background-color: #F5F5F5; }
 
