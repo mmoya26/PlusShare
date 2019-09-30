@@ -3,3 +3,8 @@
     display: -webkit-box;
     display: -ms-flexbox;
 }
+
+@mixin jc-sa {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
