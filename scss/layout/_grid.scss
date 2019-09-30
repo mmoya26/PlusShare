@@ -47,7 +47,7 @@ body {
 }
 
 .hero-container {
-    display: flex;
+    @include display-flex;
+    @include jc-sa;
     padding: 100px 0 100px 0;
-    justify-content: space-around;
 }
