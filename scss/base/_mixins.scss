@@ -8,3 +8,9 @@
     -ms-flex-pack: distribute;
     justify-content: space-around;
 }
+
+@mixin jc-sb {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
