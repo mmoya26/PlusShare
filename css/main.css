@@ -56,12 +56,12 @@ body {
   margin-top: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex !important; }
 
 .signin__button {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  display: flex !important;
   margin-right: 15px; }
 
 .signin__icon {
@@ -82,7 +82,7 @@ body {
 .hero-container {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  display: flex !important;
   -ms-flex-pack: distribute;
   justify-content: space-around;
   padding: 100px 0 100px 0; }
@@ -92,11 +92,11 @@ body {
   height: 85px;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex !important; }
   .nav__container {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    display: flex !important;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
@@ -113,7 +113,7 @@ body {
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  display: flex !important;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
@@ -127,7 +127,8 @@ body {
 
 .btn {
   border-radius: 5px;
-  font-weight: 600; }
+  font-weight: 600;
+  display: inline-block; }
 
 .btn--small {
   padding: 10px 36px; }
