@@ -47,7 +47,8 @@ body {
     -ms-grid-row-align: center;
     align-self: center; }
   .hero__text {
-    margin-top: 15px; }
+    margin-top: 15px;
+    color: #586069; }
 
 .signin {
   margin-top: 15px;
@@ -118,7 +119,7 @@ body {
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
-  margin-left: -60%; }
+  margin-left: 55%; }
   .menu__link--white {
     color: #ffffff; }
 
