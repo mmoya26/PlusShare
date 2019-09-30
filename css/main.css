@@ -58,10 +58,18 @@ body {
 .signin__button {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  margin-right: 15px; }
 
 .signin__icon {
   max-width: 32px; }
+
+.signin__link {
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  margin-left: 10px;
+  color: white; }
 
 .hero-container {
   display: -webkit-box;
@@ -117,7 +125,7 @@ body {
   padding: 10px 36px; }
 
 .btn--medium {
-  padding: 15px 0; }
+  padding: 15px 10px; }
 
 .btn--blue {
   background-color: #2BBFC9; }

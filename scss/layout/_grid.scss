@@ -28,10 +28,17 @@ body {
 
 .signin__button {
     @include display-flex;
+    margin-right: 15px;
 }
 
 .signin__icon {
     max-width: 32px;
+}
+
+.signin__link {
+    @include as-c;
+    margin-left: 10px;
+    color: white;
 }
 
 
