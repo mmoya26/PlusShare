@@ -42,9 +42,15 @@ body {
 .nav {
   background-color: #1B1B1B;
   height: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex; }
   .nav__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     align-self: center;
     width: 100%; }
@@ -53,7 +59,11 @@ body {
     color: #ffffff; }
 
 .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 20%;
   align-self: center;

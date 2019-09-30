@@ -10,11 +10,11 @@ body {
 .nav {
     background-color: $secondary-color;
     height: 55px;
-    display: flex;
+    @include display-flex;
 
     &__container {
-        display: flex;
-        justify-content: space-between;
+        @include display-flex;
+        @include jc-sb;
         align-self: center;
         width: 100%;
     }
@@ -26,8 +26,8 @@ body {
 }
 
 .menu {
-    display: flex;
-    justify-content: space-between;
+    @include display-flex;
+    @include jc-sb;
     width: 20%;
     align-self: center;
     margin-left: -60%;
