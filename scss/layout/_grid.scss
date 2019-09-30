@@ -44,6 +44,15 @@ body {
         width: 47%;
         @include as-c;
     }
+
+    &__text {
+        margin-top: 15px;
+    }
+
+}
+
+.signin {
+    margin-top: 15px;
 }
 
 .hero-container {

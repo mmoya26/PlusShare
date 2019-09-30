@@ -84,6 +84,11 @@ body {
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
     align-self: center; }
+  .hero__text {
+    margin-top: 15px; }
+
+.signin {
+  margin-top: 15px; }
 
 .hero-container {
   display: -webkit-box;
