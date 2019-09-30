@@ -98,4 +98,22 @@ body {
   .menu__link--white {
     color: #ffffff; }
 
+.btn {
+  background-color: red;
+  border-radius: 5px;
+  font-weight: 600;
+  display: inline-block; }
+
+.btn--small {
+  padding: 10px 36px; }
+
+.btn--medium {
+  padding: 15px 0; }
+
+.btn--blue {
+  background-color: #2BBFC9; }
+
+.btn--black {
+  background-color: #1B1B1B; }
+
 /*# sourceMappingURL=main.css.map */
