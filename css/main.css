@@ -50,7 +50,18 @@ body {
     margin-top: 15px; }
 
 .signin {
-  margin-top: 15px; }
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.signin__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.signin__icon {
+  max-width: 32px; }
 
 .hero-container {
   display: -webkit-box;
@@ -100,8 +111,7 @@ body {
 
 .btn {
   border-radius: 5px;
-  font-weight: 600;
-  display: inline-block; }
+  font-weight: 600; }
 
 .btn--small {
   padding: 10px 36px; }

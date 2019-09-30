@@ -23,7 +23,17 @@ body {
 
 .signin {
     margin-top: 15px;
+    @include display-flex;
 }
+
+.signin__button {
+    @include display-flex;
+}
+
+.signin__icon {
+    max-width: 32px;
+}
+
 
 .hero-container {
     @include display-flex;
