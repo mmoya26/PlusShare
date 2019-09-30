@@ -1,0 +1,29 @@
+.nav {
+    background-color: $secondary-color;
+    height: 55px;
+    @include display-flex;
+
+    &__container {
+        @include display-flex;
+        @include jc-sb;
+        @include as-c;
+        width: 100%;
+    }
+
+    &__btn {
+        @include as-c;
+        color: $white;
+    }
+}
+
+.menu {
+    @include display-flex;
+    @include jc-sb;
+    width: 20%;
+    @include as-c;
+    margin-left: -60%;
+
+    &__link--white {
+        color: $white;
+    }
+}
