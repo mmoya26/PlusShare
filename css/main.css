@@ -68,8 +68,13 @@ body {
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
-  margin-left: 10px;
-  color: white; }
+  margin-left: 10px; }
+
+.signin__link--white {
+  color: #ffffff; }
+
+.signin__link--grey {
+  color: #586069; }
 
 .hero-container {
   display: -webkit-box;
@@ -135,5 +140,10 @@ body {
 
 .btn--grey {
   background-color: #F5F5F5; }
+
+.btn__shadow {
+  -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1); }
 
 /*# sourceMappingURL=main.css.map */

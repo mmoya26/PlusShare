@@ -22,3 +22,7 @@
 .btn--grey {
     background-color: $light-grey;
 }
+
+.btn__shadow {
+    @include btn__shadow;
+}

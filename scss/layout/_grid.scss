@@ -38,7 +38,14 @@ body {
 .signin__link {
     @include as-c;
     margin-left: 10px;
-    color: white;
+}
+
+.signin__link--white {
+    color: $white;
+}
+
+.signin__link--grey {
+    color: $deep-grey;
 }
 
 
