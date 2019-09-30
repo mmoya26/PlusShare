@@ -14,3 +14,9 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
 }
+
+@mixin as-c {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+}
