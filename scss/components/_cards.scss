@@ -1,0 +1,27 @@
+.card {
+    padding: 15px 0 15px 38px;
+    background-color: $white;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    @include btn__shadow;
+    max-width: 443px;
+
+    &__title {
+        font-size: 1.125rem;
+        text-transform: uppercase;
+        color: $header-black;
+    }
+
+    &__hr {
+        width: 85%;
+        border-color: #E5E5E5;
+        margin-top: 10px;
+    }
+
+    &__text {
+        font-size: 0.875rem;
+        color: $deep-grey;
+        max-width: 85%;
+        margin-top: 10px;
+    }
+}

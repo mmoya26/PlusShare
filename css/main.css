@@ -144,6 +144,16 @@ body {
 .cards-container {
   margin: 0 auto; }
 
+.tech {
+  margin: 10px 0 10px 0; }
+  .tech__item {
+    padding: 6px 16px;
+    background-color: #E5E5E5;
+    border-radius: 5px;
+    margin-right: 15px;
+    font-size: 0.75rem;
+    color: #586069; }
+
 .btn {
   border-radius: 5px;
   font-weight: 600;
@@ -168,5 +178,28 @@ body {
   -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1); }
+
+.card {
+  padding: 15px 0 15px 38px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+  max-width: 443px; }
+  .card__title {
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    color: #090B0C; }
+  .card__hr {
+    width: 85%;
+    border-color: #E5E5E5;
+    margin-top: 10px; }
+  .card__text {
+    font-size: 0.875rem;
+    color: #586069;
+    max-width: 85%;
+    margin-top: 10px; }
 
 /*# sourceMappingURL=main.css.map */
