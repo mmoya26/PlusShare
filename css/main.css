@@ -39,6 +39,44 @@ body {
   max-width: 1166px;
   margin: 0 auto; }
 
+.nav {
+  background-color: #1B1B1B;
+  height: 85px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex !important; }
+  .nav__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex !important;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    width: 100%; }
+  .nav__button {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    color: #ffffff; }
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex !important;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 20%;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  margin-left: 55%; }
+  .menu__link--white {
+    color: #ffffff; }
+
 .hero {
   background-color: #ffffff; }
   .hero__text-container {
@@ -86,44 +124,6 @@ body {
   -ms-flex-pack: distribute;
   justify-content: space-around;
   padding: 100px 0 100px 0; }
-
-.nav {
-  background-color: #1B1B1B;
-  height: 85px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex !important; }
-  .nav__container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex !important;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
-    width: 100%; }
-  .nav__button {
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
-    color: #ffffff; }
-
-.menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex !important;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  width: 20%;
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
-  margin-left: 55%; }
-  .menu__link--white {
-    color: #ffffff; }
 
 .btn {
   border-radius: 5px;

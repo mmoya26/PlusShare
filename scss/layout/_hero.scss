@@ -1,0 +1,52 @@
+.hero {
+    background-color: $white;
+
+    &__text-container {
+        width: 47%;
+        @include as-c;
+    }
+
+    &__text {
+        margin-top: 15px;
+        color: $deep-grey;
+    }
+
+    &__title {
+        color: $soft-black;
+    }
+
+}
+
+.signin {
+    margin-top: 15px;
+    @include display-flex;
+}
+
+.signin__button {
+    @include display-flex;
+    margin-right: 15px;
+}
+
+.signin__icon {
+    max-width: 32px;
+}
+
+.signin__link {
+    @include as-c;
+    margin-left: 10px;
+}
+
+.signin__link--white {
+    color: $white;
+}
+
+.signin__link--deep-grey {
+    color: $deep-grey;
+}
+
+
+.hero-container {
+    @include display-flex;
+    @include jc-sa;
+    padding: 100px 0 100px 0;
+}
