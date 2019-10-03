@@ -8,8 +8,7 @@ a {
   text-decoration: none; }
 
 img {
-  width: 100%;
-  max-width: 402px; }
+  width: 100%; }
 
 ul {
   list-style: none; }
@@ -89,6 +88,8 @@ body {
     color: #586069; }
   .hero__title {
     color: #24292E; }
+  .hero__image {
+    max-width: 402px; }
 
 .signin {
   margin-top: 15px;
