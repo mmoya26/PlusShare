@@ -1,0 +1,14 @@
+.card-section {
+    padding-top: 150px;
+    @include display-flex;
+    @include fd-c;
+
+    &__title {
+        color: $soft-black;
+        @include as-c;
+    }
+}
+
+.cards-container {
+    margin: 0 auto;
+}
