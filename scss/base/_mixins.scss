@@ -33,3 +33,9 @@
     -moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.1);
     box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.1);
 }
+
+@mixin ai-c {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
