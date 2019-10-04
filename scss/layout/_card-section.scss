@@ -14,7 +14,8 @@
 }
 
 .tech {
-    margin: 10px 0 10px 0;
+   @include display-flex;
+   margin-top: 10px;
 
     &__item {
         padding: 6px 16px;
