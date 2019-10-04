@@ -142,7 +142,7 @@ body {
     align-self: center; }
 
 .cards-container {
-  margin: 0 auto; }
+  margin: 75px auto 0 auto; }
 
 .tech {
   display: -webkit-box;
