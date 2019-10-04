@@ -31,3 +31,9 @@
 .btn__shadow {
     @include btn__shadow;
 }
+
+.card__button {
+    color: $white;
+    font-size: 0.875rem;
+    margin-top: 10px;
+}
