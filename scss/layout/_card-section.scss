@@ -2,15 +2,18 @@
     padding-top: 150px;
     @include display-flex;
     @include fd-c;
+    @include ai-c;
 
     &__title {
         color: $soft-black;
-        @include as-c;
     }
 }
 
 .cards-container {
     margin: 75px auto 0 auto;
+    @include display-flex;
+    @include jc-c;
+    flex-wrap: wrap;
 }
 
 .tech {
