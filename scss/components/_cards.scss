@@ -3,7 +3,6 @@
     background-color: $white;
     margin: 0 0 30px 30px;
     border-radius: 5px;
-    @include btn__shadow;
     max-width: 443px;
 
     &__title {

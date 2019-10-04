@@ -16,3 +16,10 @@ img {
 ul {
     list-style: none;
 }
+
+
+// General classes
+
+.shadow {
+    @include shadow;
+}
